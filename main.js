@@ -7,11 +7,17 @@ function setup()
 }
 function draw()
 {
-  image(video, 0, 0, 800, 700);
-  circle(800,700,100)
-  circle(10,700,100)
-  circle(10,10,100)
-  circle(800,10,100)
+  image(video, 200, 200, 400, 300);
+  fill("green");
+  stroke("green");
+  circle(700,600,100);
+  circle(110,600,100);
+  circle(110,110,100);
+  circle(700,110,100);
+  rect(110, 110, 600, 25);
+  rect(110, 590, 600, 25);
+  rect(100, 100, 25, 500);
+  rect(700, 100, 25, 500);
 }
 function take_snapshot()
 {
